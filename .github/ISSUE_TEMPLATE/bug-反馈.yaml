@@ -14,7 +14,7 @@ body:
         required: true
       - label: 我已查看master branch或最新测试版的更新内容，并未提及该 bug 已被修复的情况
         required: true
-      - label: 我已查看已有issue，并没有看见其他人与我反馈相同的问题
+      - label: 已有issue中并没有看见其他人与我反馈相同的问题
         required: true
   - type: textarea
     id: describe
@@ -24,21 +24,21 @@ body:
     validations:
       required: true
   - type: textarea
-    id: describe
+    id: reproduce
     attributes:
       label: 如何复现
       description: 复现此bug的步骤，例子：1. 发送 '...' 2. 点击 '....' 3. 进入 '....' 4. 产生错误
     validations:
       required: true
   - type: textarea
-    id: describe
+    id: expected
     attributes:
       label: 你期望发生的
       description: 清晰而简明地描述你在复现此错误时所期望发生的事情（即正常工作时应当产生什么结果）。
     validations:
       required: true
   - type: textarea
-    id: describe
+    id: happened
     attributes:
       label: 实际上发生的
       description: 清晰而简明地描述你在进行这些操作时实际发生的事情。并阐述与你预期的区别。
@@ -62,7 +62,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: screenshots
+    id: core_version
     attributes:
       label: 海豹核心版本
       description: |
@@ -70,7 +70,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshots
+    id: os
     attributes:
       label: 操作系统
       description: |
@@ -78,7 +78,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshots
+    id: endpoints
     attributes:
       label: 帐号类型
       description: |
@@ -86,7 +86,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshots
+    id: protocols
     attributes:
       label: 使用协议
       description: |
