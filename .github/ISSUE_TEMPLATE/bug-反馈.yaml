@@ -1,6 +1,5 @@
 name: Bug 反馈
 description: 反馈一个海豹的bug
-title: "[BUG] "
 labels: ['bug']
 body:
   - type: checkboxes
