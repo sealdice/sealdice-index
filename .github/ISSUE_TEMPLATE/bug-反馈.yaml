@@ -1,4 +1,4 @@
-name: Bug 反馈
+name: Bug Report
 description: 反馈一个海豹的bug
 title: "[Bug]: "
 labels: ['bug']
