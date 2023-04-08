@@ -1,5 +1,6 @@
 name: Bug 反馈
 description: 反馈一个海豹的bug
+title: "[Bug]: "
 labels: ['bug']
 body:
   - type: checkboxes
@@ -61,7 +62,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: core_version
+    id: core-version
     attributes:
       label: 海豹核心版本
       description: |
